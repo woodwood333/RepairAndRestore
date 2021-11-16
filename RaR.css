@@ -1,0 +1,127 @@
+body{
+    
+    background-image: url("AidBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    text-align: center;
+
+    font-size: 6em;
+
+    position:sticky;
+    top : 0em;
+    left: 50%;
+    right: 50%;
+    margin-bottom: 0.5em;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+/*.BackgroundLink{
+    display:block;
+    position:fixed;
+    height: 1000px;
+    width: 1000px;
+    z-index: 1000;
+}*/
+
+.ContentContainer{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    justify-content: center;
+    margin: 2em;
+    padding: 2em;
+}
+
+
+
+/*--------------------- cell ------------------*/
+
+.cell{
+    margin: 5px;
+    /*background-color: tomato;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+figure{
+    margin-bottom:0px;
+    /*background-color: violet;*/
+    justify-content: center;    
+}
+
+img:hover{
+    box-shadow: 0px 0px 1px 2px rgb(191, 187, 255);
+}
+
+img.v{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 125px;
+    justify-self:center;
+}
+
+img.h{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 125px;
+    justify-self:center;
+}
+
+figcaption{
+    caption-side: below;
+    text-align: center;
+    font-weight: bold;  
+    margin-top: 3px;
+}
+
+ul{
+    font-weight: lighter;
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    text-align: center;
+    /*background-color: thistle;*/
+   
+}
+
+
+/*--------------------- cell ------------------*/
+
+
+.AidText{
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.AidIcon{
+    position:relative;
+    bottom: 1em;
+    height: 2em;
+    
+}
